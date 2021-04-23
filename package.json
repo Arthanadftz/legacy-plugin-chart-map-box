@@ -1,6 +1,6 @@
 {
-  "name": "@superset-ui/legacy-plugin-chart-map-box",
-  "version": "0.15.19",
+  "name": "@arthanasti/legacy-plugin-chart-map-box",
+  "version": "1.0.0",
   "description": "Superset Legacy Chart - MapBox",
   "sideEffects": [
     "*.css"
@@ -18,17 +18,17 @@
   "keywords": [
     "superset"
   ],
-  "author": "Superset",
+  "author": "Arthanadftz",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/apache-superset/superset-ui/issues"
+    "url": "https://github.com/Arthanadftz/superset-ui/issues"
   },
-  "homepage": "https://github.com/apache-superset/superset-ui#readme",
+  "homepage": "https://github.com/Arthanadftz/superset-ui#readme",
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@superset-ui/chart-controls": "0.15.19",
+    "@arthanasti/chart-controls": "1.0.0",
     "@superset-ui/core": "0.15.19",
     "immutable": "^3.8.2",
     "mapbox-gl": "^0.53.0",

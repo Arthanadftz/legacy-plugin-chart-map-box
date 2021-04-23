@@ -1,4 +1,4 @@
-## @superset-ui/legacy-plugin-chart-map-box
+## @arthanasti/legacy-plugin-chart-map-box
 
 [![Version](https://img.shields.io/npm/v/@superset-ui/legacy-plugin-chart-map-box.svg?style=flat-square)](https://www.npmjs.com/package/@superset-ui/legacy-plugin-chart-map-box)
 [![David (path)](https://img.shields.io/david/apache-superset/superset-ui-plugins.svg?path=packages%2Fsuperset-ui-legacy-plugin-chart-map-box&style=flat-square)](https://david-dm.org/apache-superset/superset-ui-plugins?path=packages/superset-ui-legacy-plugin-chart-map-box)
@@ -11,7 +11,7 @@ Configure `key`, which can be any `string`, and register the plugin. This `key` 
 lookup this chart throughout the app.
 
 ```js
-import MapBoxChartPlugin from '@superset-ui/legacy-plugin-chart-map-box';
+import MapBoxChartPlugin from '@arthanasti/legacy-plugin-chart-map-box';
 
 new MapBoxChartPlugin().configure({ key: 'map-box' }).register();
 ```
